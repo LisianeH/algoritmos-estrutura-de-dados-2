@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Main {
 	public static void main(String[] args) {
 
-		int[] listaDesordenada = {13, 95, 119, 184, 96, 102, 21, 48, 137, 57, 99, 5, 45, 170, 154, 146};
+		int[] listaDesordenada = {30, 20, 50, 10};
 
 		System.out.println("Lista Desordenada: \n"+ Arrays.toString(listaDesordenada));
 

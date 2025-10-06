@@ -3,10 +3,6 @@ package org.algoritmos;
 public class InsertionSort extends Algoritmo {
 
 	public void ordenaInsertionSort() {
-		if(this.primeiro == null || this.primeiro.prox == null) {
-			return;
-		}
-
 		Nodo nodoAtual = this.primeiro.prox;
 		while (nodoAtual != null) {
 			int endereco = nodoAtual.endereco;
